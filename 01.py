@@ -1,3 +1,6 @@
+from collections import Counter
+from functools import reduce
+
 with open('01.txt') as f:
     lines = f.readlines()
 
@@ -12,3 +15,8 @@ distance = 0
 for l1, l2 in zip(lines1, lines2):
     distance += abs(l1 - l2)
 print(distance)
+
+count = Counter(lines2)
+vals = (l1 * count[l1] for l1 in lines1)
+similarity = reduce(lambda x, y: x + y, vals)
+print(similarity)
