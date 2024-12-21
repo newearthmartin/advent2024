@@ -1,4 +1,4 @@
-with open('20.txt') as f:
+with open('input/20.txt') as f:
     lines = [line.strip() for line in f.readlines()]
 rows = len(lines)
 

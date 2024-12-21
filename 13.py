@@ -2,7 +2,7 @@ from itertools import groupby
 from sympy import symbols, Eq, solve
 
 
-with open('13.txt') as f:
+with open('input/13.txt') as f:
     lines = [line.strip() for line in f.readlines()]
 
 lines = (None if not l else l.replace('Button A: ', '')

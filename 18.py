@@ -3,7 +3,7 @@ from collections import defaultdict
 CUTOFF1 = 1024
 LENX, LENY = 71, 71
 
-with open('18.txt') as f:
+with open('input/18.txt') as f:
     lines = (line.strip() for line in f.readlines())
     lines = (line.split(',') for line in lines)
     lines = [tuple(map(int, line)) for line in lines]

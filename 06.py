@@ -1,4 +1,4 @@
-with open('06.txt') as f:
+with open('input/06.txt') as f:
     lines = [line.strip() for line in f.readlines()]
 
 obstacles = set()

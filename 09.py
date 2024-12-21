@@ -1,6 +1,6 @@
 from functools import reduce
 
-with open('09.txt') as f:
+with open('input/09.txt') as f:
     data = f.read().strip()
 data = [int(c) for c in data]
 

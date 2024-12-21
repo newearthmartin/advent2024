@@ -1,4 +1,4 @@
-with open('02.txt') as f:
+with open('input/02.txt') as f:
     reports = (line.strip().split(' ') for line in f.readlines())
     reports = [[int(n) for n in line] for line in reports]
 

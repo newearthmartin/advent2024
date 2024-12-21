@@ -1,7 +1,7 @@
 from collections import Counter
 from functools import reduce
 
-with open('01.txt') as f:
+with open('input/01.txt') as f:
     lines = f.readlines()
 
 lines = (line.strip().split('   ') for line in lines)

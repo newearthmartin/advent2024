@@ -1,4 +1,4 @@
-with open('15.txt') as f:
+with open('input/15.txt') as f:
     lines = [line.strip() for line in f.readlines()]
     divider = lines.index('')
     instructions = ''.join(lines[divider+1:])

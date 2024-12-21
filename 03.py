@@ -1,6 +1,6 @@
 import re
 
-with open('03.txt') as f:
+with open('input/03.txt') as f:
     data = f.read()
 
 MUL_DO_DONT_REGEX = r"don't\(\)|do\(\)|mul\(\d\d?\d?,\d\d?\d?\)"

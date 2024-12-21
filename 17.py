@@ -1,6 +1,6 @@
 import re
 
-with open('17.txt') as f:
+with open('input/17.txt') as f:
     lines = [line.strip() for line in f.readlines()]
 
 reg_a, reg_b, reg_c = None, None, None

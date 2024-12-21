@@ -1,7 +1,7 @@
 from collections import defaultdict
 from itertools import groupby
 
-with open('12.txt') as f:
+with open('input/12.txt') as f:
     lines = (line.strip() for line in f.readlines())
     lines = [line for line in lines if line]
 

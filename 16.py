@@ -1,7 +1,7 @@
 from collections import defaultdict, deque
 from enum import Enum
 
-with open('16.txt') as f:
+with open('input/16.txt') as f:
     lines = [line.strip() for line in f.readlines()]
 
 

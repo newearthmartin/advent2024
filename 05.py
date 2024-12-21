@@ -1,4 +1,4 @@
-with open('05.txt') as f:
+with open('input/05.txt') as f:
     lines = [line.strip() for line in f.readlines()]
 
 rules = set()

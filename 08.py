@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open('08.txt') as f:
+with open('input/08.txt') as f:
     lines = [line.strip() for line in f.readlines() if line]
 
 nodes = defaultdict(list)

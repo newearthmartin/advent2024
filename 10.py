@@ -1,7 +1,7 @@
 from collections import defaultdict
 from functools import reduce
 
-with open('10.txt') as f:
+with open('input/10.txt') as f:
     lines = (line.strip() for line in f.readlines())
     lines = [list(map(int, line)) for line in lines if line]
 

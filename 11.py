@@ -1,6 +1,6 @@
 from functools import cache
 
-with open('11.txt') as f:
+with open('input/11.txt') as f:
     stones = [int(n) for n in f.read().strip().split(' ')]
 
 

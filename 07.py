@@ -1,6 +1,6 @@
 from functools import reduce
 
-with open('07.txt') as f:
+with open('input/07.txt') as f:
     lines = [line.strip() for line in f.readlines() if line]
 
 lines = [line.split(': ') for line in lines]

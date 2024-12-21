@@ -1,7 +1,7 @@
 from collections import defaultdict
 import time
 
-with open('14.txt') as f:
+with open('input/14.txt') as f:
     lines = (line.strip() for line in f.readlines())
     lines = (line.replace('p=', '')
                  .replace('v=', '')

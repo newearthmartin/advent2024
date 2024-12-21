@@ -1,4 +1,4 @@
-with open('19.txt') as f:
+with open('input/19.txt') as f:
     towels = f.readline().strip().split(', ')
     f.readline()
     designs = [line.strip() for line in f.readlines()]
